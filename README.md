@@ -39,6 +39,7 @@ Ce dépôt regroupe des travaux pratiques, projets et ressources liés au cours 
 - Datasets annotés pour chaque atelier
 - Documents Markdown pour le support de cours
 
+
 ## Instructions d'utilisation
 
 1. Cloner le dépôt :
@@ -51,6 +52,25 @@ git clone https://github.com/mpigajesse/data-driven.git
 3. Installer les dépendances nécessaires (voir chaque notebook)
 4. Suivre les instructions dans chaque atelier pour reproduire les résultats
 
+
+## Environnements recommandés pour tester les notebooks
+
+- **Python 3.8+** (idéalement 3.10 ou supérieur)
+- **Plateformes compatibles :**
+	- Jupyter Notebook
+	- VS Code avec l'extension Jupyter
+	- Google Colab
+	- Kaggle Notebooks
+	- JupyterLab
+- **Environnements virtuels recommandés :**
+	- `venv` (standard Python)
+	- `conda` (Anaconda/Miniconda)
+- **Dépendances principales :**
+	- `numpy`, `pandas`, `matplotlib`, `scikit-learn`
+	- `torch`, `torchvision`, `tensorflow`, `keras`
+	- `ultralytics` (pour YOLOv8)
+	- Autres selon le notebook (voir instructions spécifiques)
+
 ## Technologies utilisées
 
 - Python, Jupyter Notebook
@@ -60,3 +80,4 @@ git clone https://github.com/mpigajesse/data-driven.git
 ## Auteur
 
 Ce dépôt est maintenu dans le cadre du cours **Deep Learning & Gen AI**.
+
